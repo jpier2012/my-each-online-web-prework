@@ -4,6 +4,7 @@ def my_each array
     yield i
     i += 1
   end
+  array
 end
 
 test_array = *(1..10)
