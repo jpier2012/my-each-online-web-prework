@@ -8,4 +8,4 @@ end
 
 test_array = *(1..10)
 
-new_array = my_each test_array {|x| x + 10}
+new_array = my_each(test_array) {|x| x + 10}
