@@ -8,5 +8,5 @@ end
 
 test_array = *(1..10)
 
-new_array = my_each(test_array) {|i| i + 10}
+new_array = my_each(test_array) {|i| i}
 puts new_array
