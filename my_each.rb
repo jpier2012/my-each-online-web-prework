@@ -6,7 +6,3 @@ def my_each array
   end
   array
 end
-
-test_array = *(1..10)
-
-puts my_each(test_array)
